@@ -15,4 +15,5 @@ def main():
             x = xmltodict.parse(XML_content, attr_prefix='')
             j = json.dumps(x,indent=4)
             output_file.write(j)
+            print("-- Convert XML to JSON Finished --")
 main()
