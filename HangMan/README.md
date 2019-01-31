@@ -22,7 +22,7 @@ This is First Exam in The Internship Program Developer 2019
 -- การให้คะแนน --<br/>
 1. ทุกคำศัพท์คะแนนเต็มจะเท่ากันคือ 100 คะแนน
 2. การให้คะแนนในแต่ละคำศัพท์จะไม่เหมือนกัน
-3. การตอบผิดไม่ทำให้เสียคะแนน แต่จะเสียพลังชีวิต
+3. การตอบผิดทำให้เสียคะแนน 5 และจะเสียพลังชีวิต
 4. พลังชีวิตมีทั้งหมด 5 ชีวิต
 <br/><br>
 ## How To Play ❔ <br>
@@ -67,4 +67,4 @@ This is First Exam in The Internship Program Developer 2019
 12. ทุกครั้งที่จบเกมจะมีการถามว่าต้องการเริ่มเล่นใหม่หรือใหม่ หากกด Y จะทำการเริ่มเล่นอีกครั้ง หากกด N จะถือว่าเสร็จสิ้น<br>
 ![y](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/13.png?raw=true)<br>
 ![n](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/15.png?raw=true)<br>
-![end](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/116.png?raw=true)<br>
+![end](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/16.png?raw=true)<br>
