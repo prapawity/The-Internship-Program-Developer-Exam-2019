@@ -24,8 +24,8 @@ This is First Exam in The Internship Program Developer 2019
 2. การให้คะแนนในแต่ละคำศัพท์จะไม่เหมือนกัน
 3. การตอบผิดไม่ทำให้เสียคะแนน แต่จะเสียพลังชีวิต
 <br/>
- &nbsp;&nbsp;&nbsp;<br>
- ## How To Play ❔ 
+ &nbsp;&nbsp;&nbsp;
+ ## How To Play ❔ <br>
  1. Clone Project จาก https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019<br>
 ![Clone file from github](ReadmePic/1.png)<br>
 ![alternativetext](ReadmePic/1.png)
