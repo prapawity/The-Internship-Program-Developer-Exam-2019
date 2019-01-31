@@ -23,16 +23,15 @@ This is First Exam in The Internship Program Developer 2019
 1. ทุกคำศัพท์คะแนนเต็มจะเท่ากันคือ 100 คะแนน
 2. การให้คะแนนในแต่ละคำศัพท์จะไม่เหมือนกัน
 3. การตอบผิดไม่ทำให้เสียคะแนน แต่จะเสียพลังชีวิต
-<br/>
+<br/><br>
 ## How To Play ❔ <br>
  1. Clone Project จาก https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019<br>
-![Clone file from github](ReadmePic/1.png)<br>
-![alternativetext](ReadmePic/1.png)
+![Clone file from github](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/1.png?raw=true)<br>
 ![Download](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/2.png?raw=true)<br>
 ![SaveFile](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/3.png?raw=true)<br>
- 1. Unzip file<br>
+ 2. Unzip file<br>
 ![PathFile](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/4.png?raw=true)<br>
 ![Unzip](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/5.png?raw=true)<br>
- 1. เปิด Terminal ขึ้นมาและไปยัง Path ที่มีโฟลเดอร์ Hangman อยู่
- 2. ใช้คำสั่ง <br> ◽ python3 main.py ใน OS X<br> ◽ python -3 main.py ใน Window
- 3. 
+ 3. เปิด Terminal ขึ้นมาและไปยัง Path ที่มีโฟลเดอร์ Hangman อยู่
+ 4. ใช้คำสั่ง <br> ◽ python3 main.py ใน OS X<br> ◽ python -3 main.py ใน Window
+ 5. 
