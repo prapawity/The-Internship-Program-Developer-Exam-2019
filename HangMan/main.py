@@ -11,7 +11,7 @@ def selectCatagory():
     while True:
         print("Select catagory ( Interger 1 - 5): ",end="")
         cat = input()
-        if(cat.isdigit()):
+        if(cat.isdigit() and 1<=int(cat)<=5):
             break
         else: print("\n-- Please input by number ( 1 - 5 ) --\n")
     return int(cat)
@@ -111,11 +111,12 @@ def gameStart(question,hint,ans_now):
         elif(cases.isalpha()==False or ord(cases) > 122 or ord(cases) < 65):
             print("-- Please input by Character --")
             continue
-        elif(cases in ans_now):
+        elif(cases.lower() in ans_now.lower()):
             print(" This Character is in Answer")
-        if(cases[0].lower() not in question and cases[0].upper() not in question):
+        elif(cases[0].lower() not in question and cases[0].upper() not in question):
             wrong_point -= 1
-            print("Question: %s   score: %d, remaining wrong guess: %d , Wrong guessed: %s" %(ans_now,point,wrong_point,cases))
+            point -= 5
+            print("Question: %s   score: %d, remaining wrong guess: %d , Wrong guessed: %s" %(ans_now,point,wrong_point,cases)) if(point>=0) else print("Question: %s   score: %d, remaining wrong guess: %d , Wrong guessed: %s" %(ans_now,0,wrong_point,cases))
             if(wrong_point <3): print('\nHint : " %s "'%(hint))
 
         else:
@@ -128,8 +129,8 @@ def gameStart(question,hint,ans_now):
             ans_now = sentense
             print("Question: %s   score: %d, remaining wrong guess: %d" %(ans_now,math.ceil(point),wrong_point)) if(point<=100) else print("Question: %s   score: %d, remaining wrong guess: %d" %(ans_now,point,wrong_point))
         drawPic(wrong_point) if wrong_point != 5 else 0
-        if(ans_now==question): return point
-        elif(wrong_point==0): return point
+        if(ans_now==question): return point,wrong_point
+        elif(wrong_point==0): return point,0
 def drawPic(wrong_point):
     """ Draw HangMan """
     print(" |-------------------")
@@ -143,10 +144,11 @@ def drawPic(wrong_point):
     print(" |")
     print("/ \\")
     print("--------------------------------------------------")
-def printAnswer(point):
+def printAnswer(point,wrong_point):
     """ print the answer """
-    if(point==0):
-        print("You Lose")
+    if(point<0):point=0
+    if(wrong_point==0):
+        print("-- You Lose, Try Again for beat your limit --")
     else: print("\n**** congratulation you pass this question your score is : %d ****\n" %(math.ceil(point))) if(point <= 100) else print("\n**** congratulation you pass this question your score is : %d ****\n" %(point))
 
 def main():
@@ -155,8 +157,8 @@ def main():
     question = getCatagoty(index)
     question,hint = randomQuestion(question,index)
     ans_now = defineQuestion(question,hint)
-    point = gameStart(question,hint,ans_now)
-    printAnswer(point)
+    point,wrong_point = gameStart(question,hint,ans_now)
+    printAnswer(point,wrong_point)
 
 def homePage():
     """ home page """
