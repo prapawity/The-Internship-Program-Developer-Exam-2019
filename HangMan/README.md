@@ -26,11 +26,13 @@ This is First Exam in The Internship Program Developer 2019
 <br/>
  &nbsp;&nbsp;&nbsp;
  ## How To Play ❔ 
- 1. Clone Project จาก
-
- ### Members
-:bust_in_silhouette: นายปภาวิทย์ พัทธสิริวิโชติ (@prapawity)<br>
-
-
-
-![prapawit](https://user-images.githubusercontent.com/32834828/39051364-9ccb9434-44d2-11e8-8377-40324a903f6a.jpg) |
+ 1. Clone Project จาก https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019<br>
+![Clone file from github](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/1.png?raw=true)<br>
+![Download](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/2.png?raw=true)<br>
+![SaveFile](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/3.png?raw=true)<br>
+ 2. Unzip file<br>
+![PathFile](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/4.png?raw=true)<br>
+![Unzip](https://github.com/prapawity/The-Internship-Program-Developer-Exam-2019/blob/master/ReadmePic/5.png?raw=true)<br>
+ 1. เปิด Terminal ขึ้นมาและไปยัง Path ที่มีโฟลเดอร์ Hangman อยู่
+ 2. ใช้คำสั่ง <br> ◽ python3 main.py ใน OS X<br> ◽ python -3 main.py ใน Window
+ 3. 
